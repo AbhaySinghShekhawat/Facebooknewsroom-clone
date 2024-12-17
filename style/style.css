@@ -118,8 +118,8 @@ nav .navicon {
 .navicon:nth-child(2):hover .whosection {
   opacity: 1;
   visibility: visible;
-  top: 90px;
-  z-index: 1;
+  top: 100px;
+  z-index: 0;
 }
 .whosection div:hover .underlin::before {
   opacity: 1;
@@ -180,8 +180,8 @@ nav .navicon:nth-child(3) {
 .navicon:nth-child(3):hover .techsection {
   opacity: 1;
   visibility: visible;
-  top: 90px;
-  z-index: 1;
+  top: 100px;
+  z-index: 0;
 }
 .techsection .box:nth-child(1) div:hover .underlin::before {
   opacity: 1;
@@ -248,8 +248,8 @@ nav .navicon i {
 .navicon:nth-child(5):hover .metasection {
   opacity: 1;
   visibility: visible;
-  top: 90px;
-  z-index: 1;
+  top: 100px;
+  z-index: 0;
 }
 .metasection div:hover .underlin::before {
   opacity: 1;
@@ -320,7 +320,7 @@ nav .navicon i {
   justify-content: center;
   opacity: 0;
   visibility: hidden;
-  z-index: 1;
+  z-index: -1;
   transition: 0.5s;
 }
 .supsection .box {
@@ -333,7 +333,8 @@ nav .navicon i {
 .iconsapret:nth-child(3):hover .supsection {
   opacity: 1;
   visibility: visible;
-  top: 80px;
+  top: 100px;
+  z-index: 0;
 }
 .underlin {
   height: 45px;
@@ -419,6 +420,10 @@ section {
   font-family: "Optimistic Text Bold", Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin-top: 20px;
+}
+.sec1 div:nth-child(2) div:hover{
+  background-color: #0050b3;
+  cursor: pointer;
 }
 .sec2 {
   width: 100%;
@@ -579,6 +584,10 @@ section {
   border-radius: 40px;
   font-weight: bold;
   margin-top: 9px;
+}
+.sec4-2 div:nth-child(3):hover{
+  background-color: #0050b3;
+  cursor: pointer;
 }
 .sec4-2 div:nth-child(4) {
   width: 370px;
@@ -1290,6 +1299,9 @@ footer {
 .sect6-2{
   width: 100%;
   position: relative;
+}
+.sect6-2 video{
+  width: 100%;
 }
 .sect6-2-1 {
   width: 600px;
